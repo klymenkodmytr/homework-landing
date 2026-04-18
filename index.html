@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Landing</title>
+<meta charset="UTF-8">
+<title>My Landing</title>
 
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      margin-top: 100px;
-    }
-    input, button {
-      padding: 10px;
-      margin: 10px;
-      font-size: 16px;
-    }
-  </style>
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id=GTM-WBPH7R9G'+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBPH7R9G');
+</script>
+<!-- End Google Tag Manager -->
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 100px;
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+</style>
+
 </head>
 
 <body>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBPH7R9G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <h1>Homework Landing</h1>
 
-<form>
-  <input type="email" placeholder="Enter your email" required>
-  <br>
-  <button type="submit">Sign Up</button>
+<form id="signup-form">
+    <input type="email" placeholder="Enter your email" required>
+    <br>
+    <button type="submit" id="submit-btn">Sign Up</button>
 </form>
 
 </body>
